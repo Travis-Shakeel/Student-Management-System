@@ -1,0 +1,16 @@
+db.admin.insertMany([
+  {
+    _id: 001,
+    name: "Stacey",
+    role: "registrar",
+    email: "stacey@yahoo.com",
+    password: "seng513"
+  },
+  {
+    _id: 002,
+    name: "Mitchell",
+    role: "registrar",
+    email: "mitchell@gmail.com",
+    password: "seng513"
+  }
+  ])

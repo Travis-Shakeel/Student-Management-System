@@ -1,0 +1,45 @@
+.StudentLoginHeader {
+    text-align: center;
+}
+.MainDiv {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 173, 182);
+}
+
+.rect {
+    background-color: rgb(116, 144, 157) !important;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.button {
+    text-align: center;
+}
+
+.StudentLoginHeader {
+    position: relative;
+    bottom: 231px;
+    left: 339px;
+}
+
+.BackButton {
+    margin-top: 40px;
+    margin-left: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Visible {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.centr {
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,22 @@
+db.posts.insertMany([
+  { 
+  post_title: "How do I get financial Aid",
+  post_description: "I'm inquiring about receiving student loans but I do not know the correct steps to apply ",
+  replies: 
+   [{ reply: "Have you Applied on studendaid.ca?",
+       date: new Date("2022-12-10") },
+     { reply: "Try contacting student services at school",
+      date: new Date("2022-12-10")  },
+     { reply: "Hello",
+      date: new Date("2022-12-10")  }] 
+  },
+  { 
+   post_title: "How do I calculate my GPA? ",
+   post_description: "I was wondering whether credit matters when calculating your GPA? ",
+   replies: 
+   [ { reply: "It does matter. The GPA will calculate differently depending on the amount of credits a class is worth.",
+        date: new Date("2022-12-10") 
+        } ]
+  }
+  ]);
+

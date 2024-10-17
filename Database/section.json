@@ -1,0 +1,62 @@
+db.section.insertMany([
+  {
+    _id: 1,
+    year: 2022,
+    semester: "Fall",
+    instructor: "Smith",
+    day: "Friday",
+    students_id: [ObjectId("6377f37d1721db0b944ba451"),  ObjectId("6377f37d1721db0b944ba452")],
+    location: "ENGG 024",
+    course_id: 111,
+    start_time: 11,
+    end_time: 14
+  },
+  {
+    _id: 2,
+    year: 2022,
+    semester: "Fall",
+    instructor: "Henry",
+    day: "Thursday",
+    students_id: [ObjectId("6377f37d1721db0b944ba451")],
+    location: "ICT 024",
+    course_id: 112,
+    start_time: 9,
+    end_time: 12
+  },
+  {
+    _id: 3,
+    year: 2022,
+    semester: "Fall",
+    instructor: "Mark",
+    day: "Monday",
+    students_id: [ObjectId("6377f37d1721db0b944ba452")],
+    location: "ICT 251",
+    course_id: 114,
+    start_time: 14,
+    end_time: 17
+  },
+  {
+    _id: 4,
+    year: 2023,
+    semester: "Winter",
+    instructor: "Singh",
+    day: "Monday",
+    students_id: [ObjectId("6377f37d1721db0b944ba451")],
+    location: "Eng 024",
+    course_id: 115,
+    start_time: 18,
+    end_time: 20
+  },
+  {
+    _id: 5,
+    year: 2023,
+    semester: "Winter",
+    instructor: "Rita",
+    day: "Friday",
+    students_id: [ObjectId("6377f37d1721db0b944ba452")],
+    location: "ICT 251",
+    course_id: 117,
+    start_time: 15,
+    end_time: 17
+  }
+  ]);

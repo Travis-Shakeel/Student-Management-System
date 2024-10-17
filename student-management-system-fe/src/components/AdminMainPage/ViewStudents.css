@@ -1,0 +1,60 @@
+.view-student-title{
+    margin-top: 35px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #111;
+    text-align: center;
+}
+
+.view-student-background{
+    display: flex;
+    height: 85%;
+    margin-right: 42px;
+    margin-left: 42px;
+    background-color: #efefef;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5); 
+
+
+}
+.view-student-grid{
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 100px;
+    padding-right: 155px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    overflow-x: scroll;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2); 
+
+}
+
+.view-student-table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.view-student-table > h3{
+    margin-bottom: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #111;
+    text-align: center;
+
+}
+
+.view-student-table Th{
+    font-weight: 600;
+    font-size: 15px;
+    font-style: italic;
+    color: #000;
+}

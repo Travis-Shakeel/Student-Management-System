@@ -1,0 +1,142 @@
+.reg-student-title{
+    margin-top: 35px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #111;
+    text-align: center;
+}
+
+.reg-student-bg{
+    margin-top: 5%;
+    display: flex;
+    height: 85%;
+    margin-right: 42px;
+    margin-left: 42px;
+    background-color: #efefef;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.register-Header {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid #AAB8C6;
+}
+.register-form-title{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.reg-form-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2); 
+    background-color: #ffffff;
+}
+
+.reg-remove-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+    margin-right: 16px;
+    margin-left: 16px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2); 
+    background-color: #ffffff;
+}
+
+.remove-title{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #AAB8C6;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+
+}
+
+.rem-text{
+    font-weight: 600;
+   
+}
+.remove-section{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.remove-btn{
+    margin-bottom: 10px;
+}
+.rem-select{
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+.butn{
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.reg-form-container label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.remove-section select{
+    background-color:#efefef;
+    border-radius: 10px;
+}
+
+.reg-form-container input{
+    border-radius: 5px;
+    background-color:#efefef;
+}
+
+.flex-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .flex-cont {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 0px;
+    }
+
+    .register-form-title{
+        width: 100%;
+    }
+
+    .reg-form-container {
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .reg-remove-container {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,111 @@
+.enroll-title{
+    margin-top: 35px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #111;
+    text-align: center;
+}
+
+.enroll-bg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 150px;
+    margin-right: 42px;
+    margin-left: 42px;
+    padding-bottom: 8px;
+    background-color: #efefef;
+    border: solid 0px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5); 
+
+}
+
+
+.enroll-search-bg{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 85%; 
+    margin-right: 42px;
+    margin-left: 42px;
+    background-color: #efefef;
+    border: solid 0px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.search-container {
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search {
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.search-wrapper{
+    border: solid 0px #000;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2); 
+}
+.bton {
+    margin: auto;
+}
+
+.showCourse {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    border: solid 1px ;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.section1 {
+    display: flex;
+    padding: 5px 8px;
+    gap: 50px;
+}
+
+.section1-year{
+    margin-left: 30px;
+}
+.section1-semester{
+    margin-left: 40px;
+}
+.not-available {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.en-buttons {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 800px) {
+    .section1 {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .section1 p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .enroll-search-bg {
+        margin-bottom: 15%;
+    }
+}

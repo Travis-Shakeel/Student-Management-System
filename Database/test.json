@@ -1,0 +1,10 @@
+db.student.aggregate([
+      {
+        $lookup:
+          {
+            from: "section",
+            localField: "sections",
+            foreignField: "_id",
+            as: "sections_taken"
+          }
+     }]);

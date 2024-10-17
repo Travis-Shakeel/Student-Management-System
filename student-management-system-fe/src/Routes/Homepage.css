@@ -1,0 +1,81 @@
+.HomePageContent {
+    min-height: 100vh;
+    /* min-height: 900px; */
+    /* margin-top: 3%; */
+    /* background-color: aqua; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@viewport {
+    zoom: 1;
+    width: extend-to-zoom;
+}
+
+.HomePageHeading {
+    font-size: 3rem;
+}
+
+.HomePageInsideDiv {
+    /* background-color: red; */
+    height: 200px;
+}
+
+.HomePageTopButton {
+    margin-bottom: 50px;
+}
+
+.HomePageTopDiv {
+    background-color: rgba(192, 223, 223, 0.911);
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* @media (max-width: 768px) {
+    .HomePageBackground {
+        height:100vh;
+    }
+} */
+
+/* 
+
+
+ .StudentLoginHeader{
+    text-align: center;
+ }
+ .HomepageTopDiv{
+     justify-content: center;
+
+     align-items: center;
+     background-image: url('./images/logo1.png');
+     background-repeat: no-repeat;
+    display: flex;
+    width: auto;
+    height: 100%;
+
+ }
+ 
+ .HomepageBottomdiv{
+     background-color:  rgb(150, 120, 135) !important;
+     align-items: center;
+     justify-content: center;
+     vertical-align: middle; 
+ }
+ 
+ .ButtonAdmin{
+     text-align: center;
+ }
+ 
+ .StudentLoginHeader{
+     position: relative;
+     bottom: 231px;
+     left: 339px;
+ }
+
+ .LogoPicture{
+    /* max-width:100%;
+    height:auto; */
+/* }   */

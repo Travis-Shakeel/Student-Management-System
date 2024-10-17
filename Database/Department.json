@@ -1,0 +1,5 @@
+db.department.insertOne(
+  {
+      _id: 1221,
+      department_name: "Computer Science"
+  });

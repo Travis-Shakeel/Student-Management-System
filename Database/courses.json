@@ -1,0 +1,86 @@
+db.course.insertMany([
+{
+  _id: 111,
+  course_Name: "Cpsc 457",
+  course_Description: "Operating Systems",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 112,
+  course_Name: "Cpsc 441",
+  course_Description: "Computer Networks",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 113,
+  course_Name: "Cpsc 449",
+  course_Description: "Programming Paradigms",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 114,
+  course_Name: "Cpsc 411",
+  course_Description: "Compiler Construction",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 115,
+  course_Name: "Cpsc 413",
+  course_Description: "Design and Analysis",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 116,
+  course_Name: "Cpsc 418",
+  course_Description: "CryptoGraphy",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 117,
+  course_Name: "Cpsc 433",
+  course_Description: "Artifical Intelligence",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 118,
+  course_Name: "Cpsc 461",
+  course_Description: "Information Structures",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 119,
+  course_Name: "Cpsc 471",
+  course_Description: "Data Base Management Systems",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 120,
+  course_Name: "Cpsc 491",
+  course_Description: "Techniques for Numerical Computation",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 121,
+  course_Name: "Cpsc 499",
+  course_Description: "Special Topics in Computer Science",
+  credits: 3,
+  department_id: 1221
+},
+{
+  _id: 122,
+  course_Name: "Cpsc 502",
+  course_Description: "Research Project",
+  credits: 3,
+  department_id: 1221
+}
+]);

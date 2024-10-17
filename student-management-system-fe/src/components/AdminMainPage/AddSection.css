@@ -1,0 +1,38 @@
+.form-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.remove-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.remove-container {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.Add-header {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.brd {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}

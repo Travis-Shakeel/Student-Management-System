@@ -1,0 +1,35 @@
+.user-info {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #E9E9E9;
+    border-radius: 25px;
+}
+
+.info {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.info-text {
+    font-size: 1.4rem;
+}
+
+.info-text-area {
+    font-size: 1.4rem;
+    width: 100%;
+    resize: none;
+}
+
+.info-number {
+    font-size: 1.4rem;
+    width: 150px;
+}

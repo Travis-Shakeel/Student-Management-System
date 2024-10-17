@@ -1,0 +1,39 @@
+.EditPageContent {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@viewport {
+    zoom: 1;
+    width: extend-to-zoom;
+}
+
+.EditPageHeading {
+    font-size: 2rem;
+}
+
+
+.EditPageTopButton {
+    margin-bottom: 50px;
+}
+
+#Address {
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+}
+
+#PhoneNumber {
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+}
+
+#Password {
+    text-align: center;
+    width: 50%;
+    padding: 12px 20px;
+}
+
+.AddressText {
+}
